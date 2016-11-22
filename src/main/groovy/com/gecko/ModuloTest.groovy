@@ -8,6 +8,18 @@ import com.gecko.type.Modulo
  * and operator overloading
  */
 
+// since it doesn't have a class definition, this is a
+// groovy script
+//
+// the groovy compiler will do the following:
+// 1. turn this into a class with the same name as the file name
+// 2. make the class extend Script object
+// 3. enclose the contents of the script in a public Object run () method
+// 4. add a main method
+// 5. and some other more sophisticated stuff with Caller etc.
+//
+// see the compiled class for verification
+
 // test 1, Modulo + Modolu
 Modulo five_eiight = new Modulo(5, 8);
 Modulo six_eight = new Modulo(6, 8);
