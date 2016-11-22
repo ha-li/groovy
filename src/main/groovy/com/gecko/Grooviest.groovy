@@ -1,7 +1,6 @@
 #!/Users/hlieu/groovy/groovy
 package com.gecko
 
-@Grab('commons-lang:commons-lang:2.4')
 import org.apache.commons.lang.ClassUtils
 
 assert(true);
