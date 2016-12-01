@@ -7,4 +7,8 @@ abstract class RobotBaseScript extends Script {
     void move (Direction dir){
         this.binding.robot.move dir
     }
+
+    void move(Direction dir, Distance d) {
+        this.binding.robot.move dir, d
+    }
 }

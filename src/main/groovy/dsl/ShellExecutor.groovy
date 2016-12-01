@@ -15,6 +15,7 @@ def binding = new Binding(
 
 def importCustomizer = new ImportCustomizer();
 importCustomizer.addStaticStars 'dsl.Direction';
+importCustomizer.addStaticStars 'dsl.DistanceUnit';
 
 def config = new CompilerConfiguration();
 config.addCompilationCustomizers(importCustomizer);
@@ -28,4 +29,4 @@ shell.evaluate '''
 '''
 
 // dsl in a file, script in the file, same bindings above
-shell.evaluate "./myscript.groovy"  as File;
+shell.evaluate "./myscript.groovy" as File;

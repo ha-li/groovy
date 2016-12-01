@@ -20,11 +20,12 @@ class MyGroovyBean {
     // member, so Groovy does not respect your privacy -- weird coming
     // from a java world
     private String id;
-    private String getId() {
+    public String getId() {
         return "getId is private";
     }
 
-    private void setId (String id) {
+    public void setId (String id) {
+        println "setting id to " + id;
         this.id = id;
     }
 
@@ -42,22 +43,5 @@ class MyGroovyBean {
         // outside of the 'lexical scope' by using
         // reference.@fieldname notation (see MyMain.groovy)
         return 10 * money;   // return 10 times your money
-    }
-
-
-    public static void main (String[] args) {
-        MyGroovyBean bean = new MyGroovyBean();
-
-        // it seems like we are directly accessing
-        // a private member of MyGroovyBean,
-        // but we are actually calling bean.setName ('Jimbolaya');
-        bean.name = "Jimbolaya";
-
-        // and here we are calling bean.getName();
-        assert bean.name == 'Jimbolaya';
-
-        //
-        bean.setId( "I am an id" );
-        assert bean.id == "getId is private";
     }
 }

@@ -7,4 +7,8 @@ class Robot {
     void move (Direction dir) {
         println "robot moved $dir"
     }
+
+    void move (Direction dir, Distance d) {
+        println "robot moved $dir by $d";
+    }
 }
