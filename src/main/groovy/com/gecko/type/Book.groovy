@@ -1,4 +1,4 @@
-package com.gecko
+package com.gecko.type
 
 /**
  * Created by hlieu on 11/14/16.

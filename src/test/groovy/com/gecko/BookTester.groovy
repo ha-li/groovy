@@ -1,5 +1,6 @@
 package com.gecko
 
+import com.gecko.type.Book
 import org.junit.Test
 
 /**

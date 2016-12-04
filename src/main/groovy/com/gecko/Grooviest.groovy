@@ -1,6 +1,7 @@
 #!/Users/hlieu/groovy/groovy
 package com.gecko
 
+import com.gecko.type.Book
 import org.apache.commons.lang.ClassUtils
 
 assert(true);
