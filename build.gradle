@@ -15,3 +15,17 @@ dependencies {
     testCompile ('junit:junit:4.8.2')
 }
 
+jar {
+    version = "1.15"
+    baseName='grooviestHeart'
+    manifest {
+        attributes 'Implementation-Title': 'grooviestHeart',
+                   'Implementation-Version': version
+    }
+}
+
+/* uploadArchives {
+    repositories {
+        flatDir(dirs: file('my_repository'))
+    }
+} */
