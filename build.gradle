@@ -2,8 +2,6 @@ apply plugin: 'idea'
 //apply plugin: 'java'
 apply plugin: 'groovy'
 
-//version = "1.0"
-
 repositories {
     mavenCentral()
 }
@@ -19,7 +17,7 @@ jar {
     version = "1.15"
     baseName='grooviestHeart'
     manifest {
-        attributes 'Implementation-Title': 'grooviestHeart',
+        attributes 'Implementation-Title': baseName,
                    'Implementation-Version': version
     }
 }
