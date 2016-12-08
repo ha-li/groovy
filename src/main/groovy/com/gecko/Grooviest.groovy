@@ -2,6 +2,7 @@
 package com.gecko
 
 import com.gecko.type.Book
+import com.gecko.type.ImmutableAnnotationBook
 import org.apache.commons.lang.ClassUtils
 
 assert(true);
@@ -41,10 +42,10 @@ pot1.setBrand('Monkey Brand');
 System.out.println(pot1.getBrand());
 assert pot1.brand == 'Monkey Brand';
 
-def gina = new FixedBook('Groovy in Action');
+def gina = new ImmutableAnnotationBook('Groovy in Action');
 assert gina.title == 'Groovy in Action'
 
-def regina = new FixedBook(title:'Groovy in Action');
+def regina = new ImmutableAnnotationBook(title:'Groovy in Action');
 assert gina == regina
 
 try {
