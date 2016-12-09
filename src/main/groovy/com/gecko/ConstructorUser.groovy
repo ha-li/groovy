@@ -3,6 +3,7 @@ package com.gecko
 /**
  * Created by hlieu on 11/21/16.
  */
+
 class ConstructorUser {
     String name;
     String id;

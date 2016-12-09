@@ -15,7 +15,7 @@ class MyGroovyBean {
 
     // this id is private and i've overridden it's
     // getters and setters and made them private.
-    // but in class MyMain.groovy (which is at a different package level)
+    // but in class MyGroovyBeanUser.groovy (which is at a different package level)
     // we can still get the private methods and access the private
     // member, so Groovy does not respect your privacy -- weird coming
     // from a java world
@@ -41,7 +41,7 @@ class MyGroovyBean {
         // inside the 'lexical scope' of a field, the member
         // is directly accessed. You can achieve this
         // outside of the 'lexical scope' by using
-        // reference.@fieldname notation (see MyMain.groovy)
+        // reference.@fieldname notation (see MyGroovyBeanUser.groovy)
         return 10 * money;   // return 10 times your money
     }
 }

@@ -9,7 +9,7 @@ import com.gecko.type.MyGroovyBean
 // this is a test class my MyGroovyBean which has 2 private members
 // and private methods, but we are still able to access the private
 // members and methods, so Groovy does not respect your privacy.
-class MyMain {
+class MyGroovyBeanUser {
 
 
     public static void main(String[] args) {
