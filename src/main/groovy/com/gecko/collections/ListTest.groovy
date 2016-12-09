@@ -1,4 +1,4 @@
-package com.gecko
+package com.gecko.collections
 
 import java.lang.reflect.Array
 

@@ -1,4 +1,4 @@
-package com.gecko
+package com.gecko.collections
 
 /**
  * Created by hlieu on 11/17/16.
