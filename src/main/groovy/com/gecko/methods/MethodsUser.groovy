@@ -1,4 +1,4 @@
-package com.gecko
+package com.gecko.methods
 
 /**
  * Created by hlieu on 11/20/16.
