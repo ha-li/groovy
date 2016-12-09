@@ -4,10 +4,16 @@ package com.gecko
  * Created by hlieu on 11/20/16.
  */
 
+// this is an example of how groovy uses the
+// empty datastructure as a control
+// for loop control
 public void listAssertions() {
+
+    // an empty list evaluates to false
     List t = [];
     assert !t;
 
+    // a non-empty list is true
     t = [1];
     assert t;
 
@@ -31,9 +37,12 @@ public void listAssertions() {
 }
 
 public void mapAssertions() {
+
+    // an empty map is false as a control, but not as a boolean
     Map m = [:];
     assert !m;
 
+    // a non-empty map is true as a control, but not as a boolean
     Map m2 = [a_key:"a_value"];
     assert m2;
 
@@ -51,6 +60,8 @@ public void mapAssertions() {
 }
 
 public void stringAssertions() {
+
+    // a non-empty string is true as a control, not as a boolean
     String s = 'a';
     assert s;
 
