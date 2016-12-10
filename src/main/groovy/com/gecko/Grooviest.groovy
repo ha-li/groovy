@@ -2,7 +2,7 @@
 package com.gecko
 
 import com.gecko.type.Book
-import com.gecko.type.ImmutableAnnotationBook
+import com.gecko.immutable.ImmutableAnnotationBook
 import com.gecko.type.Pot
 import org.apache.commons.lang.ClassUtils
 

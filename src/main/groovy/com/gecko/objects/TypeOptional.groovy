@@ -1,4 +1,4 @@
-package com.gecko
+package com.gecko.objects
 
 /**
  * Created by hlieu on 11/15/16.

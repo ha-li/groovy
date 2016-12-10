@@ -1,7 +1,7 @@
 package com.gecko
 
-import com.gecko.type.ImmutableAnnotationBook
-import com.gecko.type.ImmutableAnnotationName
+import com.gecko.immutable.ImmutableAnnotationBook
+import com.gecko.immutable.ImmutableAnnotationName
 
 /**
  * Created by hlieu on 12/7/16.

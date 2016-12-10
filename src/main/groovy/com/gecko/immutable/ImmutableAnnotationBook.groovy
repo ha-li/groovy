@@ -1,4 +1,4 @@
-package com.gecko.type
+package com.gecko.immutable
 
 import groovy.transform.Immutable
 
