@@ -12,10 +12,6 @@ package com.gecko.gstrings
  */
 class GStringExample {
 
-   public static void closureSubstitution () {
-      def randText = 'hey world!';
-      println "";
-   }
 
    public static String methodCall  (String text) {
       return "from a groovy script '$text'!";
@@ -41,6 +37,5 @@ class GStringExample {
    public static void main (String[] args) {
       placeHolderSubstitution ();
       expressionSubstitution ();
-      closureSubstitution ();
    }
 }
