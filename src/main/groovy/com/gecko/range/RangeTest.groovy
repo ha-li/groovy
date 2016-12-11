@@ -1,4 +1,4 @@
-package com.gecko.collections
+package com.gecko.range
 
 /**
  * Created by hlieu on 11/17/16.

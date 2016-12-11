@@ -18,6 +18,7 @@ class Book {
         return this.isdn == candidate.isdn;
     }
 
+    //TODO: is this necessary
     /* public boolean isCase(int isdn) {
         return this.isdn == isdn;
     } */
