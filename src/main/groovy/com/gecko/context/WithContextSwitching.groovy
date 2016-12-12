@@ -1,4 +1,4 @@
-package com.gecko
+package com.gecko.context
 
 import com.gecko.type.Address
 

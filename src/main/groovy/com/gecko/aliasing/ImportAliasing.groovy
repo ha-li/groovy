@@ -1,4 +1,4 @@
-package com.gecko
+package com.gecko.aliasing
 
 
 // this does an import with an alias
